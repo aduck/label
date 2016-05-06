@@ -1,0 +1,45 @@
+*{margin:0;padding:0;}
+body{font-size:12px;}
+/** module **/
+.m-label{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	border:1px solid #ffbebf;
+	background-color:#feecec;
+	font-size:12px;
+	color:#e6393d;
+	padding:0 5px;
+	line-height:20px;
+	height:20px;
+}
+.m-label.default:after{
+	content:"";
+	background-image: url(http://img.easeeyes.com/index2015/spriter.png);
+  	background-position: -18px -20px;
+  	width: 9px;
+  	height: 5px;
+  	display:inline-block;
+  	*display:inline;
+  	*zoom:1;
+  	vertical-align:middle;
+}
+.m-label.active:after{
+	content:"";
+	background-image: url(http://img.easeeyes.com/index2015/spriter.png);
+  	background-position: -28px -20px;
+  	width: 9px;
+  	height: 5px;
+  	display:inline-block;
+  	*display:inline;
+  	*zoom:1;
+  	vertical-align:middle;
+}
+.m-label-layer{
+	border:1px solid #cdcdcd;
+	width:135px;
+	padding:5px;
+	background:#fff;
+}
+.m-label-layer.ani-fade{animation:fadeIn .5s;-webkit-animation:fadeIn .5s;}
+.m-label-layer.ani-fromBottom{animation:fromBottom .5s;-webkit-animation:fromBottom .5s;}
